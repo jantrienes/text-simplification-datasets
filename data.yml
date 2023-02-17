@@ -444,8 +444,7 @@ datasets:
   vajjala-and-lucic-2018-onestopenglish:
     author: Vajjala and Lucic
     domain: News
-    instances: '189 articles with automatic sentence alignment: 1.6K ELE-INT, 2.1K ELE-ADV,
-      3.1K INT-ADV.'
+    instances: '189 articles at three levels. Automatic sentence alignment: 1.6K ELE-INT, 2.1K ELE-ADV, 3.1K INT-ADV.'
     kind: Parallel
     language: EN
     level: Document
@@ -453,7 +452,7 @@ datasets:
     linkNote: null
     name: OneStopEnglish
     paper: https://doi.org/10.18653/v1/w18-0535
-    references: 3 per article (elementary, intermediate, advanced)
+    references: 1
     year: 2018
   van-den-bercken-et-al-2019-mytomorrows-wiki:
     author: van den Bercken et al.

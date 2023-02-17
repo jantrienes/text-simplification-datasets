@@ -2,7 +2,7 @@
 
 ## Datasets
 
-| Author | Name | Language | Domain | Kind | Level | Instances | Refs. | Link |
+| Author | Name | Lang | Domain | Kind | Level | Instances | Refs. | Link |
 |-|-|-|-|-|-|-|-|-|
 | [Zhu et al. (2010)](https://aclanthology.org/C10-1152) | PWKP | EN | Wikipedia | Comparable | Sentence | 108,016 paired sentences extracted from 65,133 articles. | 1 | [Link](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2447) |
 | [Coster and Kauchak (2011)](https://aclanthology.org/P11-2117) | C&K1 | EN | Wikipedia | Comparable | Sentence | 137,000 paired sentences from 10,588 articles. | 1 | [Link](https://cs.pomona.edu/~dkauchak/simplification/) |
@@ -20,10 +20,10 @@
 | [Klerke and Søgaard (2012)](https://aclanthology.org/L12-1113/) | Dsim | DA | News | Parallel | Document | 3,701 articles with 48,186 aligned sentences | 1 | n/a |
 | [Xu et al. (2015)](https://doi.org/10.1162/tacl_a_00139) | Newsela | EN | News | Parallel | Document | 1130 articles (original); 1911 articles (v2016-01-29); at 5 levels | 1 | [Link](https://newsela.com/data/) |
 | [Xu et al. (2015)](https://doi.org/10.1162/tacl_a_00139) | Newsela-ES | ES | News | Parallel | Document | 243 articles (v2016-01-29) at 5 levels | 1 | [Link](https://newsela.com/data/) |
-| [Vajjala and Lucic (2018)](https://doi.org/10.18653/v1/w18-0535) | OneStopEnglish | EN | News | Parallel | Document | 189 articles with automatic sentence alignment: 1.6K ELE-INT, 2.1K ELE-ADV, 3.1K INT-ADV. | 3 per article (elementary, intermediate, advanced) | [Link](https://zenodo.org/record/1219041) |
+| [Vajjala and Lucic (2018)](https://doi.org/10.18653/v1/w18-0535) | OneStopEnglish | EN | News | Parallel | Document | 189 articles at three levels. Automatic sentence alignment: 1.6K ELE-INT, 2.1K ELE-ADV, 3.1K INT-ADV. | 1 | [Link](https://zenodo.org/record/1219041) |
 | [Jiang et al. (2020)](https://doi.org/10.18653/v1/2020.acl-main.709) | Newsela-AUTO | EN | News | Parallel | Sentence | 666,645 sentence pairs from 1932 articles at 5 levels | 1 | [Link](https://github.com/chaojiang06/wiki-auto) |
 | [Rios et al. (2021)](https://doi.org/10.18653/v1/2021.newsum-1.16) | 20 minutes | DE | News | Parallel | Document | 18,305 articles with simplified summaries. | 1 | [Link](https://github.com/ZurichNLP/20Minuten) |
-| [Hauser et al. (2022)](https://aclanthology.org/2022.readi-1.4) | SNIML | FI/FR/IT/SV/EN/DE | News | Simplified only | Document | 13,447 documents | n/a | [Link](https://pub.cl.uzh.ch/projects/sniml/en/read/) |
+| [Hauser et al. (2022)](https://aclanthology.org/2022.readi-1.4) | SNIML | DE, EN, FI, FR, IT, SV | News | Simplified only | Document | 13,447 documents | n/a | [Link](https://pub.cl.uzh.ch/projects/sniml/en/read/) |
 | [Klaper et al. (2013)](http://www.aclweb.org/anthology/W13-2902) | SimpleGerman | DE | Web | Comparable | Sentence | 7000 sentences from 256 articles. 78% of sentences have an alignment | 1 | n/a (Available on request) |
 | [Scarton et al. (2018)](https://aclanthology.org/L18-1685/) | SimPA | EN | Web | Parallel | Sentence | 1100 sentences | 3 (lexical); 1 (syntactic) | [Link](https://github.com/SIMPATICOProject/simpa) |
 | [Battisti et al. (2020)](https://aclanthology.org/2020.lrec-1.404) | SimpleGerman V2.0 | DE | Web | Comparable | Document | 5461 simple, unaligned documents and 378 aligned (complex-simple) documents (6217 docs in total). The document-aligned portion has 17,121 complex sentences and 21,072 simple sentences. No statistics on the sentence-alignments are reported. | 1 | n/a ([Scraping code](https://zenodo.org/record/4507047)) |

@@ -19,7 +19,7 @@ DOMAIN_ORDER = [
 HEADER = [
     "Author",
     "Name",
-    "Language",
+    "Lang",
     "Domain",
     "Kind",
     "Level",
