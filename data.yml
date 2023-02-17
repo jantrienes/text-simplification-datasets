@@ -1,0 +1,561 @@
+datasets:
+  alva-manchego-et-al-2020-asset:
+    author: Alva-Manchego et al.
+    domain: Wikipedia
+    instances: 2350 sentences (2000 train, 350 test)
+    kind: Parallel
+    language: EN
+    level: Sentence
+    link: https://github.com/facebookresearch/asset
+    linkNote: null
+    name: ASSET
+    paper: https://doi.org/10.18653/v1/2020.acl-main.424
+    references: 10
+    year: 2020
+  attal-et-al-2023-plaba:
+    author: Attal et al.
+    domain: Medical
+    instances: 750 documents with 7643 sentence pairs
+    kind: Parallel
+    language: EN
+    level: Document
+    link: https://osf.io/rnpmf/
+    linkNote: null
+    name: PLABA
+    paper: https://www.nature.com/articles/s41597-022-01920-3
+    references: 1
+    year: 2023
+  aumiller-and-gertz-2022-klexikon:
+    author: Aumiller and Gertz
+    domain: Wikipedia
+    instances: 2898 article pairs
+    kind: Comparable
+    language: DE
+    level: Document
+    link: https://github.com/dennlinger/klexikon
+    linkNote: null
+    name: Klexikon
+    paper: https://aclanthology.org/2022.lrec-1.288/
+    references: 1
+    year: 2022
+  battisti-et-al-2020-simplegerman-v2.0:
+    author: Battisti et al.
+    domain: Web
+    instances: 5461 simple, unaligned documents and 378 aligned (complex-simple) documents (6217 docs in total). The document-aligned portion has 17,121 complex sentences and 21,072 simple sentences. No statistics on the sentence-alignments are reported.
+    kind: Comparable
+    language: DE
+    level: Document
+    link: null
+    linkNote: '[Scraping code](https://zenodo.org/record/4507047)'
+    name: SimpleGerman V2.0
+    paper: https://aclanthology.org/2020.lrec-1.404
+    references: 1
+    year: 2020
+  botha-et-al-2018-wikisplit:
+    author: Botha et al.
+    domain: Wikipedia
+    instances: 1 million sentences
+    kind: Parallel
+    language: EN
+    level: Sentence
+    link: https://github.com/google-research-datasets/wiki-split
+    linkNote: null
+    name: WikiSplit
+    paper: https://aclanthology.org/D18-1080/
+    references: 1
+    year: 2018
+  campillos-llanos-et-al-2022-clara-med:
+    author: Campillos-Llanos et al.
+    domain: Medical
+    instances: null
+    kind: Comparable
+    language: ES
+    level: Document
+    link: https://digital.csic.es/handle/10261/269887
+    linkNote: null
+    name: CLARA-MeD
+    paper: http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6439
+    references: null
+    year: 2022
+  cao-et-al-2020-msd-manuals:
+    author: Cao et al.
+    domain: Medical
+    instances: 2551 linked paragraphs (professionals <-> laymen) with average of 10.4 and 11.3 sentences each. From a random sample of 1000 paragraphs, medical experts extracted  930 aligned sentences with equivalent meaning.
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: https://srhthu.github.io/expertise-style-transfer/#introduction
+    linkNote: null
+    name: MSD-Manuals
+    paper: https://doi.org/10.18653/v1/2020.acl-main.100
+    references: 1
+    year: 2020
+  chamovitz-and-abend-2022-festability:
+    author: Chamovitz and Abend
+    domain: Talks
+    instances: 321 sentence pairs
+    kind: Parallel
+    language: EN
+    level: Sentence
+    link: https://github.com/eytan-c/CognitiveSimplification
+    linkNote: null
+    name: FestAbility
+    paper: https://aclanthology.org/2022.conll-1.17/
+    references: 1
+    year: 2022
+  coster-and-kauchak-2011-c&k1:
+    author: Coster and Kauchak
+    domain: Wikipedia
+    instances: 137,000 paired sentences from 10,588 articles.
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: https://cs.pomona.edu/~dkauchak/simplification/
+    linkNote: null
+    name: C&K1
+    paper: https://aclanthology.org/P11-2117
+    references: 1
+    year: 2011
+  devaraj-et-al-2021-cochrane:
+    author: Devaraj et al.
+    domain: Medical
+    instances: 4459 paragraph pairs (<1024 tokens)
+    kind: Comparable
+    language: EN
+    level: Paragraph
+    link: https://github.com/AshOlogn/Paragraph-level-Simplification-of-Medical-Texts
+    linkNote: null
+    name: Cochrane
+    paper: https://aclanthology.org/2021.naacl-main.395
+    references: 1
+    year: 2021
+  dmitrieva-and-tiedemann-2021-ruadapt:
+    author: Dmitrieva and Tiedemann
+    domain: Books
+    instances: 457 documents
+    kind: Parallel
+    language: RU
+    level: Document
+    link: https://github.com/Digital-Pushkin-Lab/RuAdapt
+    linkNote: null
+    name: RuAdapt
+    paper: https://aclanthology.org/2021.bsnlp-1.8
+    references: null
+    year: 2021
+  ganitkevitch-et-al-2013-ppdb:
+    author: Ganitkevitch et al.
+    domain: Mixed
+    instances: 221 million sentences
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: http://paraphrase.org
+    linkNote: null
+    name: PPDB
+    paper: https://aclanthology.org/N13-1092/
+    references: 1
+    year: 2013
+  goldsack-et-al-2022-biolaysumm:
+    author: Goldsack et al.
+    domain: Medical
+    instances: 32353 document-plain abstract pairs
+    kind: Parallel
+    language: EN
+    level: Document
+    link: https://github.com/TGoldsack1/Corpora_for_Lay_Summarisation
+    linkNote: null
+    name: BioLaySumm
+    paper: https://aclanthology.org/2022.emnlp-main.724/
+    references: 1
+    year: 2022
+  grabar-and-cardon-2019-clear:
+    author: Grabar and Cardon
+    domain: Medical
+    instances: 16190 documents
+    kind: Comparable
+    language: FR
+    level: Document
+    link: http://natalia.grabar.free.fr/resources.php
+    linkNote: null
+    name: CLEAR
+    paper: https://aclanthology.org/W18-7002/
+    references: 1
+    year: 2019
+  guo-et-al-2022-cells:
+    author: Guo et al.
+    domain: Medical
+    instances: 63000
+    kind: Comparable
+    language: EN
+    level: Paragraph
+    link: https://github.com/linguisticanomalies/pls_retrieval
+    linkNote: null
+    name: CELLS
+    paper: https://arxiv.org/abs/2211.03818
+    references: 1
+    year: 2022
+  hauser-et-al-2022-sniml:
+    author: Hauser et al.
+    domain: News
+    instances: 13,447 documents
+    kind: Simplified only
+    language: DE, EN, FI, FR, IT, SV
+    level: Document
+    link: https://pub.cl.uzh.ch/projects/sniml/en/read/
+    linkNote: null
+    name: SNIML
+    paper: https://aclanthology.org/2022.readi-1.4
+    references: n/a
+    year: 2022
+  hwang-et-al-2015-ew-sew:
+    author: Hwang et al.
+    domain: Wikipedia
+    instances: 150,000 full and 130,000 partial matches
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: null
+    linkNote: 'Raw dataset no longer available. Pre-processed version available [here](https://github.com/senisioi/NeuralTextSimplification)'
+    name: EW-SEW
+    paper: https://aclanthology.org/N15-1022/
+    references: 1
+    year: 2015
+  jiang-et-al-2020-newsela-auto:
+    author: Jiang et al.
+    domain: News
+    instances: 666,645 sentence pairs from 1932 articles at 5 levels
+    kind: Parallel
+    language: EN
+    level: Sentence
+    link: https://github.com/chaojiang06/wiki-auto
+    linkNote: null
+    name: Newsela-AUTO
+    paper: https://doi.org/10.18653/v1/2020.acl-main.709
+    references: 1
+    year: 2020
+  jiang-et-al-2020-wiki-auto:
+    author: Jiang et al.
+    domain: Wikipedia
+    instances: 488,332 train sentences from 138,095 article pairs (2019/09 dump).
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: https://github.com/chaojiang06/wiki-auto
+    linkNote: 'Part of [GEM](https://gem-benchmark.com/data_cards/Wiki-Auto)'
+    name: Wiki-AUTO
+    paper: https://doi.org/10.18653/v1/2020.acl-main.709
+    references: 1
+    year: 2020
+  kajiwara-and-komachi-2016-sscorpus:
+    author: Kajiwara and Komachi
+    domain: Wikipedia
+    instances: 492,993 aligned sentences from 126K article pairs.
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: https://github.com/tmu-nlp/sscorpus
+    linkNote: null
+    name: sscorpus
+    paper: https://aclanthology.org/C16-1109
+    references: 1
+    year: 2016
+  kauchak-2013-c&k-2:
+    author: Kauchak
+    domain: Wikipedia
+    instances: 167,000 paired sentences.
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: https://cs.pomona.edu/~dkauchak/simplification/
+    linkNote: null
+    name: C&K-2
+    paper: https://aclanthology.org/P13-1151
+    references: 1
+    year: 2013
+  klaper-et-al-2013-simplegerman-:
+    author: Klaper et al.
+    domain: Web
+    instances: 7000 sentences from 256 articles. 78% of sentences have an alignment
+    kind: Comparable
+    language: DE
+    level: Sentence
+    link: null
+    linkNote: Available on request
+    name: SimpleGerman
+    paper: http://www.aclweb.org/anthology/W13-2902
+    references: 1
+    year: 2013
+  "klerke-and-sogaard-2012-dsim":
+    author: "Klerke and Søgaard"
+    domain: News
+    instances: 3,701 articles with 48,186 aligned sentences
+    kind: Parallel
+    language: DA
+    level: Document
+    link: null
+    linkNote: null
+    name: Dsim
+    paper: https://aclanthology.org/L12-1113/
+    references: 1
+    year: 2012
+  li-et-al-2020-pharmmt:
+    author: 'Li et al. '
+    domain: Medical
+    instances: 380,000K aligned sentences.
+    kind: Parallel
+    language: EN
+    level: Sentence
+    link: null
+    linkNote: null
+    name: PharmMT
+    paper: https://doi.org/10.18653/v1/2020.findings-emnlp.251
+    references: 1
+    year: 2020
+  luo-et-al-2022-medlane:
+    author: Luo et al.
+    domain: Clinical
+    instances: 12,801/1,015/1,016 train/valid/test sentences (avg. 20/24 tokens in source/target)
+    kind: Parallel
+    language: EN
+    level: Sentence
+    link: https://github.com/machinelearning4health/MedLane
+    linkNote: null
+    name: MedLane
+    paper: https://aclanthology.org/2022.coling-1.313
+    references: 1
+    year: 2022
+  moramarco-et-al-2022-mtsamples:
+    author: Moramarco et al.
+    domain: Clinical
+    instances: 1250 sentence pairs.
+    kind: Parallel
+    language: EN
+    level: Sentence
+    link: https://github.com/babylonhealth/laymaker
+    linkNote: null
+    name: MTSamples
+    paper: https://arxiv.org/abs/2112.12672
+    references: 1
+    year: 2022
+  narayan-et-al-2017-websplit:
+    author: Narayan et al.
+    domain: Mixed
+    instances: 1 million sentences
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: https://github.com/shashiongithub/Split-and-Rephrase
+    linkNote: null
+    name: WebSplit
+    paper: https://doi.org/10.18653/v1/d17-1064
+    references: 1
+    year: 2017
+  pavlick-and-callison-burch-2016-simple-ppdb:
+    author: Pavlick and Callison-Burch
+    domain: Mixed
+    instances: 4.5 million sentences
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: https://www.seas.upenn.edu/~nlp/resources/simple-ppdb.tgz
+    linkNote: null
+    name: Simple-PPDB
+    paper: https://doi.org/10.18653/v1/p16-2024
+    references: 1
+    year: 2016
+  rios-et-al-2021-20-minutes:
+    author: Rios et al.
+    domain: News
+    instances: 18,305 articles with simplified summaries.
+    kind: Parallel
+    language: DE
+    level: Document
+    link: https://github.com/ZurichNLP/20Minuten
+    linkNote: null
+    name: 20 minutes
+    paper: https://doi.org/10.18653/v1/2021.newsum-1.16
+    references: 1
+    year: 2021
+  scarton-et-al-2018-simpa:
+    author: Scarton et al.
+    domain: Web
+    instances: 1100 sentences
+    kind: Parallel
+    language: EN
+    level: Sentence
+    link: https://github.com/SIMPATICOProject/simpa
+    linkNote: null
+    name: SimPA
+    paper: https://aclanthology.org/L18-1685/
+    references: '3 (lexical); 1 (syntactic)'
+    year: 2018
+  sulem-et-al-2018-hsplit:
+    author: Sulem et al.
+    domain: Wikipedia
+    instances: 350 sentences (test set of turk corpus)
+    kind: Parallel
+    language: EN
+    level: Sentence
+    link: https://github.com/eliorsulem/HSplit-corpus
+    linkNote: null
+    name: Hsplit
+    paper: https://doi.org/10.18653/v1/D18-1081
+    references: 2
+    year: 2018
+  taylor-et-al-2022-psat:
+    author: Taylor et al.
+    domain: Education
+    instances: 112 documents, with total of 1883 aligned sentences
+    kind: Parallel
+    language: EN
+    level: Document
+    link: https://zenodo.org/record/7065615
+    linkNote: null
+    name: PSAT
+    paper: https://aclanthology.org/2022.coling-1.566/
+    references: 1
+    year: 2022
+  toborek-et-al-2022-simple-german-v3.0:
+    author: Toborek et al.
+    domain: Web
+    instances: 708 documents
+    kind: Comparable
+    language: DE
+    level: Document
+    link: null
+    linkNote: '[Scraping code](https://github.com/buschmo/Simple-German-Corpus)'
+    name: Simple German V3.0
+    paper: https://arxiv.org/abs/2209.01106
+    references: 1
+    year: 2022
+  trienes-et-al-2022-simple-patho:
+    author: Trienes et al.
+    domain: Clinical
+    instances: 851 documents
+    kind: Parallel
+    language: DE
+    level: Document
+    link: null
+    linkNote: null
+    name: SimplePatho
+    paper: https://aclanthology.org/2022.tsar-1.3/
+    references: 1
+    year: 2022
+  vajjala-and-lucic-2018-onestopenglish:
+    author: Vajjala and Lucic
+    domain: News
+    instances: '189 articles with automatic sentence alignment: 1.6K ELE-INT, 2.1K ELE-ADV,
+      3.1K INT-ADV.'
+    kind: Parallel
+    language: EN
+    level: Document
+    link: https://zenodo.org/record/1219041
+    linkNote: null
+    name: OneStopEnglish
+    paper: https://doi.org/10.18653/v1/w18-0535
+    references: 3 per article (elementary, intermediate, advanced)
+    year: 2018
+  van-den-bercken-et-al-2019-mytomorrows-wiki:
+    author: van den Bercken et al.
+    domain: Medical
+    instances: "5415 (manually aligned); 3797 (automatically aligned)"
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: https://github.com/myTomorrows-research/public/tree/5b054a88746b7d4422732e2fd3ee6a77a8a53918/WWW2019
+    linkNote: null
+    name: myTomorrows-Wiki
+    paper: https://doi.org/10.1145/3308558.3313630
+    references: 1
+    year: 2019
+  van-et-al-2020-automets:
+    author: Van et al.
+    domain: Medical
+    instances: 3300 aligned sentences
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: https://github.com/vanh17/MedTextSimplifier/tree/master/data_processing/data
+    linkNote: null
+    name: AutoMeTS
+    paper: https://doi.org/10.18653/v1/2020.coling-main.122
+    references: 1
+    year: 2020
+  xu-et-al-2015-newsela:
+    author: Xu et al.
+    domain: News
+    instances: 1130 articles (original); 1911 articles (v2016-01-29); at 5 levels
+    kind: Parallel
+    language: EN
+    level: Document
+    link: https://newsela.com/data/
+    linkNote: null
+    name: Newsela
+    paper: https://doi.org/10.1162/tacl_a_00139
+    references: 1
+    year: 2015
+  xu-et-al-2015-newsela-es:
+    author: Xu et al.
+    domain: News
+    instances: 243 articles (v2016-01-29) at 5 levels
+    kind: Parallel
+    language: ES
+    level: Document
+    link: https://newsela.com/data/
+    linkNote: null
+    name: Newsela-ES
+    paper: https://doi.org/10.1162/tacl_a_00139
+    references: 1
+    year: 2015
+  xu-et-al-2016-turkcorpus:
+    author: Xu et al.
+    domain: Wikipedia
+    instances: 2350 sentences (2000 dev, 350 test)
+    kind: Parallel
+    language: EN
+    level: Sentence
+    link: https://github.com/cocoxu/simplification/
+    linkNote: null
+    name: TurkCorpus
+    paper: https://doi.org/10.1162/tacl_a_00107
+    references: 8
+    year: 2016
+  zhang-and-lapata-2017-wikilarge:
+    author: Zhang and Lapata
+    domain: Wikipedia
+    instances: 296,402 sentence pairs (WikiLarge)
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: https://github.com/XingxingZhang/dress
+    linkNote: null
+    name: WikiLarge
+    paper: https://doi.org/10.18653/v1/d17-1062
+    references: 1
+    year: 2017
+  zhang-and-lapata-2017-wikismall:
+    author: Zhang and Lapata
+    domain: Wikipedia
+    instances: 89,042 sentence pairs
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: https://github.com/XingxingZhang/dress
+    linkNote: null
+    name: WikiSmall
+    paper: https://doi.org/10.18653/v1/d17-1062
+    references: 1
+    year: 2017
+  zhu-et-al-2010-pwkp:
+    author: Zhu et al.
+    domain: Wikipedia
+    instances: 108,016 paired sentences extracted from 65,133 articles.
+    kind: Comparable
+    language: EN
+    level: Sentence
+    link: https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2447
+    linkNote: null
+    name: PWKP
+    paper: https://aclanthology.org/C10-1152
+    references: 1
+    year: 2010
