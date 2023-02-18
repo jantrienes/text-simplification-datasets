@@ -28,6 +28,13 @@ HEADER = [
     "Link",
 ]
 
+# More compact
+LEVEL_MAP = {
+    'Sentence': 'Sent',
+    'Paragraph': 'Par',
+    'Document': 'Doc',
+}
+
 
 def record_to_row(d: dict):
     if d["link"]:
@@ -45,7 +52,7 @@ def record_to_row(d: dict):
         d["language"],
         d["domain"],
         d["kind"],
-        d["level"],
+        LEVEL_MAP.get(d["level"]),
         d["instances"],
         d["references"],
         link,
