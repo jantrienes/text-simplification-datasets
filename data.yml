@@ -379,7 +379,7 @@ datasets:
   scarton-et-al-2018-simpa:
     author: Scarton et al.
     domain: Web
-    instances: 1100 sentences
+    instances: 1100 sentences with 3 lexical, and one 1 syntactic simplification each
     kind: Parallel
     language: EN
     level: Sentence
@@ -387,7 +387,7 @@ datasets:
     linkNote: null
     name: SimPA
     paper: https://aclanthology.org/L18-1685/
-    references: '3 (lexical); 1 (syntactic)'
+    references: '3, 1'
     year: 2018
   sulem-et-al-2018-hsplit:
     author: Sulem et al.
