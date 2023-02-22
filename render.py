@@ -17,8 +17,7 @@ DOMAIN_ORDER = [
 ]
 
 HEADER = [
-    "Author",
-    "Name",
+    "Dataset",
     "Lang",
     "Domain",
     "Kind",
@@ -44,11 +43,11 @@ def record_to_row(d: dict):
     if d["linkNote"]:
         link += f" ({d['linkNote']})"
 
-    author = f"{d['author']} ({d['year']})"
-    author = f"[{author}]({d['paper']})"
+    author_year = f"({d['author']}, {d['year']})"
+    author_year_link = f"[{author_year}]({d['paper']})"
+    name = f"**{d['name']}** {author_year_link}"
     return [
-        author,
-        d["name"],
+        name,
         d["language"],
         d["domain"],
         d["kind"],
