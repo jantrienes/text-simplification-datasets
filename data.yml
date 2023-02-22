@@ -2,7 +2,7 @@ datasets:
   alva-manchego-et-al-2020-asset:
     author: Alva-Manchego et al.
     domain: Wikipedia
-    instances: 2350 sentences (2000 train, 350 test)
+    instances: 2359 sentences (2000 train, 359 test)
     kind: Parallel
     language: EN
     level: Sentence
@@ -392,7 +392,7 @@ datasets:
   sulem-et-al-2018-hsplit:
     author: Sulem et al.
     domain: Wikipedia
-    instances: 350 sentences (test set of turk corpus)
+    instances: 359 sentences (test set of turk corpus)
     kind: Parallel
     language: EN
     level: Sentence
@@ -400,7 +400,7 @@ datasets:
     linkNote: null
     name: Hsplit
     paper: https://doi.org/10.18653/v1/D18-1081
-    references: 2
+    references: 4
     year: 2018
   taylor-et-al-2022-psat:
     author: Taylor et al.
@@ -509,7 +509,7 @@ datasets:
   xu-et-al-2016-turkcorpus:
     author: Xu et al.
     domain: Wikipedia
-    instances: 2350 sentences (2000 dev, 350 test)
+    instances: 2359 sentences (2000 dev, 359 test)
     kind: Parallel
     language: EN
     level: Sentence
