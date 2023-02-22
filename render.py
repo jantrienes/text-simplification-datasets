@@ -45,7 +45,7 @@ def record_to_row(d: dict):
 
     author_year = f"{d['author']} ({d['year']})"
     author_year_link = f"[{author_year}]({d['paper']})"
-    name = f"**{d['name']} - {author_year_link}"
+    name = f"**{d['name']}** - {author_year_link}"
     return [
         name,
         d["language"],
