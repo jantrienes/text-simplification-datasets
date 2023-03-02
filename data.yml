@@ -558,3 +558,81 @@ datasets:
     paper: https://aclanthology.org/C10-1152
     references: 1
     year: 2010
+  horn-etal-2014-learning:
+    author: Horn et al.
+    domain: Wikipedia
+    instances: 500
+    kind: Parallel
+    language: EN
+    level: Lexical
+    link: https://cs.pomona.edu/~dkauchak/simplification/
+    linkNote:
+    name: LexMTurk
+    paper: https://aclanthology.org/P14-2075/
+    references: multiple
+    year: 2014
+  paetzold-specia-2016b:
+    author: Paetzold and Specia
+    domain: Wikipedia
+    instances: 239
+    kind: Comparable
+    language: EN
+    level: Lexical
+    link: https://zenodo.org/record/2552381#.Y2ququzP0-R
+    linkNote:
+    name: NNSEval
+    paper: https://ojs.aaai.org/index.php/AAAI/article/view/9885
+    references: multiple
+    year: 2016
+  paetzold-specia-2016-benchmarking:
+    author: Paetzold and Specia
+    domain: Wikipedia
+    instances: 929
+    kind: Comparable
+    language: EN
+    level: Lexical
+    link: http://ghpaetzold.github.io/data/BenchLS.zip
+    linkNote:
+    name: BenchLS
+    paper: https://aclanthology.org/L16-1491/
+    references: multiple
+    year: 2016
+  uchida-etal-2018-cefr:
+    author: Uchida et al.
+    domain: Education
+    instances: 414
+    kind: Comparable
+    language: EN
+    level: Lexical
+    link: http://www-bigdata.ist.osaka-u.ac.jp/arase/pj/lex-simplification.zip
+    linkNote:
+    name: CEFR
+    paper: https://aclanthology.org/L18-1514/
+    references: 2.4(avg)
+    year: 2018
+  alarcon-etal-2021:
+    author: Alarcon et al.
+    domain: Mixed
+    instances: 5153
+    kind: Parallel
+    language: ES
+    level: Lexical
+    link: https://github.com/LURMORENO/EASIER_CORPUS
+    linkNote:
+    name: EASIER
+    paper: https://ieeexplore.ieee.org/document/9400837
+    references: 1-3
+    year: 2021
+  hartmann-aluisio-2021:
+    author: Hartmann and Aluisio
+    domain: Education
+    instances: 1582
+    kind: Parallel
+    language: PT (BR)
+    level: Lexical
+    link: https://github.com/nathanshartmann/SIMPLEX-PB-3.0
+    linkNote:
+    name: SIMPLEX-PB-3.0
+    paper: https://linguamatica.com/index.php/linguamatica/article/view/323
+    references: 7,3(avg)
+    year: 2021

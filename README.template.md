@@ -1,6 +1,6 @@
 # Text Simplification Datasets
 
-A collection of text simplification datasets with a focus on sentence/paragraph/document-level simplification. There is only a limited coverage of lexical simplification datasets. All [contributions](#Contributing) are welcome!
+A collection of text simplification datasets with a focus on sentence/paragraph/document-level simplification. All [contributions](#Contributing) are welcome!
 
 ## Datasets
 

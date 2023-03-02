@@ -1,6 +1,6 @@
 # Text Simplification Datasets
 
-A collection of text simplification datasets with a focus on sentence/paragraph/document-level simplification. There is only a limited coverage of lexical simplification datasets. All [contributions](#Contributing) are welcome!
+A collection of text simplification datasets with a focus on sentence/paragraph/document-level simplification. All [contributions](#Contributing) are welcome!
 
 ## Datasets
 
@@ -15,9 +15,12 @@ Notes on the table columns:
 | **PWKP** [(Zhu et al., 2010)](https://aclanthology.org/C10-1152) | EN | Wikipedia | Comparable | Sent | 108,016 paired sentences extracted from 65,133 articles. | 1 | [Link](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2447) |
 | **C&K1** [(Coster and Kauchak, 2011)](https://aclanthology.org/P11-2117) | EN | Wikipedia | Comparable | Sent | 137,000 paired sentences from 10,588 articles. | 1 | [Link](https://cs.pomona.edu/~dkauchak/simplification/) |
 | **C&K-2** [(Kauchak, 2013)](https://aclanthology.org/P13-1151) | EN | Wikipedia | Comparable | Sent | 167,000 paired sentences. | 1 | [Link](https://cs.pomona.edu/~dkauchak/simplification/) |
+| **LexMTurk** [(Horn et al., 2014)](https://aclanthology.org/P14-2075/) | EN | Wikipedia | Parallel | | 500 | multiple | [Link](https://cs.pomona.edu/~dkauchak/simplification/) |
 | **EW-SEW** [(Hwang et al., 2015)](https://aclanthology.org/N15-1022/) | EN | Wikipedia | Comparable | Sent | 150,000 full and 130,000 partial matches | 1 | n/a (Raw dataset no longer available. Pre-processed version available [here](https://github.com/senisioi/NeuralTextSimplification)) |
 | **sscorpus** [(Kajiwara and Komachi, 2016)](https://aclanthology.org/C16-1109) | EN | Wikipedia | Comparable | Sent | 492,993 aligned sentences from 126K article pairs. | 1 | [Link](https://github.com/tmu-nlp/sscorpus) |
 | **TurkCorpus** [(Xu et al., 2016)](https://doi.org/10.1162/tacl_a_00107) | EN | Wikipedia | Parallel | Sent | 2359 sentences (2000 dev, 359 test) | 8 | [Link](https://github.com/cocoxu/simplification/) |
+| **NNSEval** [(Paetzold and Specia, 2016)](https://ojs.aaai.org/index.php/AAAI/article/view/9885) | EN | Wikipedia | Comparable | | 239 | multiple | [Link](https://zenodo.org/record/2552381#.Y2ququzP0-R) |
+| **BenchLS** [(Paetzold and Specia, 2016)](https://aclanthology.org/L16-1491/) | EN | Wikipedia | Comparable | | 929 | multiple | [Link](http://ghpaetzold.github.io/data/BenchLS.zip) |
 | **WikiLarge** [(Zhang and Lapata, 2017)](https://doi.org/10.18653/v1/d17-1062) | EN | Wikipedia | Comparable | Sent | 296,402 sentence pairs (WikiLarge) | 1 | [Link](https://github.com/XingxingZhang/dress) |
 | **WikiSmall** [(Zhang and Lapata, 2017)](https://doi.org/10.18653/v1/d17-1062) | EN | Wikipedia | Comparable | Sent | 89,042 sentence pairs | 1 | [Link](https://github.com/XingxingZhang/dress) |
 | **WikiSplit** [(Botha et al., 2018)](https://aclanthology.org/D18-1080/) | EN | Wikipedia | Parallel | Sent | 1 million sentences | 1 | [Link](https://github.com/google-research-datasets/wiki-split) |
@@ -39,7 +42,10 @@ Notes on the table columns:
 | **PPDB** [(Ganitkevitch et al., 2013)](https://aclanthology.org/N13-1092/) | EN | Mixed | Comparable | Sent | 221 million sentences | 1 | [Link](http://paraphrase.org) |
 | **Simple-PPDB** [(Pavlick and Callison-Burch, 2016)](https://doi.org/10.18653/v1/p16-2024) | EN | Mixed | Comparable | Sent | 4.5 million sentences | 1 | [Link](https://www.seas.upenn.edu/~nlp/resources/simple-ppdb.tgz) |
 | **WebSplit** [(Narayan et al., 2017)](https://doi.org/10.18653/v1/d17-1064) | EN | Mixed | Comparable | Sent | 1 million sentences | 1 | [Link](https://github.com/shashiongithub/Split-and-Rephrase) |
+| **EASIER** [(Alarcon et al., 2021)](https://ieeexplore.ieee.org/document/9400837) | ES | Mixed | Parallel | | 5153 | 1-3 | [Link](https://github.com/LURMORENO/EASIER_CORPUS) |
 | **RuAdapt** [(Dmitrieva and Tiedemann, 2021)](https://aclanthology.org/2021.bsnlp-1.8) | RU | Books | Parallel | Doc | 457 documents | | [Link](https://github.com/Digital-Pushkin-Lab/RuAdapt) |
+| **CEFR** [(Uchida et al., 2018)](https://aclanthology.org/L18-1514/) | EN | Education | Comparable | | 414 | 2.4(avg) | [Link](http://www-bigdata.ist.osaka-u.ac.jp/arase/pj/lex-simplification.zip) |
+| **SIMPLEX-PB-3.0** [(Hartmann and Aluisio, 2021)](https://linguamatica.com/index.php/linguamatica/article/view/323) | PT (BR) | Education | Parallel | | 1582 | 7,3(avg) | [Link](https://github.com/nathanshartmann/SIMPLEX-PB-3.0) |
 | **PSAT** [(Taylor et al., 2022)](https://aclanthology.org/2022.coling-1.566/) | EN | Education | Parallel | Doc | 112 documents, with total of 1883 aligned sentences | 1 | [Link](https://zenodo.org/record/7065615) |
 | **CLEAR** [(Grabar and Cardon, 2019)](https://aclanthology.org/W18-7002/) | FR | Medical | Comparable | Doc | 16190 documents | 1 | [Link](http://natalia.grabar.free.fr/resources.php) |
 | **myTomorrows-Wiki** [(van den Bercken et al., 2019)](https://doi.org/10.1145/3308558.3313630) | EN | Medical | Comparable | Sent | 5415 (manually aligned); 3797 (automatically aligned) | 1 | [Link](https://github.com/myTomorrows-research/public/tree/5b054a88746b7d4422732e2fd3ee6a77a8a53918/WWW2019) |
