@@ -32,6 +32,7 @@ LEVEL_MAP = {
     'Sentence': 'Sent',
     'Paragraph': 'Par',
     'Document': 'Doc',
+    'Lexical': 'Lex',
 }
 
 
