@@ -7,7 +7,7 @@ A collection of text simplification datasets with a focus on sentence/paragraph/
 Notes on the table columns:
 
 - **Kind** refers to the way simplification instances were obtained. For _parallel_, this is usually through manual simplification according to specific guidelines. For _comparable_, this is by automatically mining pairs of complex/simple sentences with similar meaning from a large text corpus.
-- **Level** can be sentence, paragraph or document.
+- **Level** can be lexical (lex), sentence (sent), paragraph (para) or document (doc).
 - **Refs** refers to the number of references per instance (i.e., gold simplifications).
 
 {{datasets}}
