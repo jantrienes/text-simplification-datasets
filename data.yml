@@ -67,7 +67,7 @@ datasets:
   campillos-llanos-et-al-2022-clara-med:
     author: Campillos-Llanos et al.
     domain: Medical
-    instances: null
+    instances: 24298 comparable documents and 3800 parallel sentences
     kind: Comparable
     language: ES
     level: Document
