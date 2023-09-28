@@ -640,7 +640,7 @@ datasets:
     author: Sun et al.
     domain: Wikipedia
     instances: 143,546
-    kind: Parallel
+    kind: Comparable
     language: EN
     level: Document
     link: https://github.com/RLSNLP/Document-level-text-simplification/tree/main/Dataset
@@ -653,7 +653,7 @@ datasets:
     author: Sun et al.
     domain: Wikipedia
     instances: 116,020
-    kind: Parallel
+    kind: Comparable
     language: EN
     level: Sentences
     link: https://github.com/rlsnlp/document-context-to-sentence-simplification
