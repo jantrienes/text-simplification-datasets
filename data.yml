@@ -639,7 +639,7 @@ datasets:
   sun-etal-2021-document:
     author: Sun et al.
     domain: Wikipedia
-    instances: 143,546
+    instances: 143,546 article pairs
     kind: Comparable
     language: EN
     level: Document
@@ -652,10 +652,10 @@ datasets:
   sun-etal-2020-helpfulness:
     author: Sun et al.
     domain: Wikipedia
-    instances: 116,020
+    instances: 116,020 sentences with context (includes preceding and following sentence)
     kind: Comparable
     language: EN
-    level: Sentences
+    level: Sentence
     link: https://github.com/rlsnlp/document-context-to-sentence-simplification
     linkNote: null
     name: Wikipedia (with context)
