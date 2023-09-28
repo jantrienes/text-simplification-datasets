@@ -636,3 +636,68 @@ datasets:
     paper: https://linguamatica.com/index.php/linguamatica/article/view/323
     references: 7,3(avg)
     year: 2021
+  sun-etal-2021-document:
+    author: Sun et al.
+    domain: Wikipedia
+    instances: 143,546
+    kind: Comparable
+    language: EN
+    level: Document
+    link: https://github.com/RLSNLP/Document-level-text-simplification/tree/main/Dataset
+    linkNote: null
+    name: D-Wikipedia
+    paper: https://doi.org/10.18653/v1/2021.emnlp-main.630
+    references: 1
+    year: 2021
+  sun-etal-2020-helpfulness:
+    author: Sun et al.
+    domain: Wikipedia
+    instances: 116,020
+    kind: Comparable
+    language: EN
+    level: Sentences
+    link: https://github.com/rlsnlp/document-context-to-sentence-simplification
+    linkNote: null
+    name: Wikipedia (with context)
+    paper: https://doi.org/10.18653/v1/2020.coling-main.121
+    references: 1
+    year: 2020
+  lee-vajjala-2022-neural:
+    author: Lee and Vajjala
+    domain: Education
+    instances: 6165 (for each language)
+    kind: Parallel
+    language: EN / FR
+    level: Document
+    link: https://zenodo.org/record/6327828
+    linkNote: null
+    name: Vikidia
+    paper: https://doi.org/10.18653/v1/2022.findings-acl.300
+    references: 1
+    year: 2022
+  arase-etal-2022-cefr:
+    author: Arase et al.
+    domain: Education
+    instances: 17000 sentences from Newsela-Auto (upon request), Wiki-Auto, and SCoRE dataset
+    kind: CEFR-level
+    language: EN
+    level: Sentence
+    link: https://github.com/yukiar/CEFR-SP
+    linkNote: null
+    name: CEFR-SP
+    paper: https://doi.org/10.18653/v1/2022.emnlp-main.416
+    references: 1
+    year: 2022
+  dmitrieva-tiedemann-2021-creating:
+    author: Dmitrieva and Tiedemann
+    domain: Books
+    instances: 3406
+    kind: Parallel
+    language: RU
+    level: Sentence
+    link: https://github.com/dialogue-evaluation/RuSimpleSentEval
+    linkNote: null
+    name: RSSE
+    paper: https://aclanthology.org/2021.bsnlp-1.8/
+    references: 1
+    year: 2021
