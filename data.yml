@@ -214,7 +214,7 @@ datasets:
     kind: Comparable
     language: EN
     level: Sentence
-    link: null
+    link: https://web.archive.org/web/20150906192742/http://ssli.ee.washington.edu/tial/projects/simplification/
     linkNote: 'Raw dataset no longer available. Pre-processed version available [here](https://github.com/senisioi/NeuralTextSimplification)'
     name: EW-SEW
     paper: https://aclanthology.org/N15-1022/
