@@ -688,16 +688,3 @@ datasets:
     paper: https://doi.org/10.18653/v1/2022.emnlp-main.416
     references: 1
     year: 2022
-  dmitrieva-tiedemann-2021-creating:
-    author: Dmitrieva and Tiedemann
-    domain: Books
-    instances: 3406
-    kind: Parallel
-    language: RU
-    level: Sentence
-    link: https://github.com/dialogue-evaluation/RuSimpleSentEval
-    linkNote: null
-    name: RSSE
-    paper: https://aclanthology.org/2021.bsnlp-1.8/
-    references: 1
-    year: 2021

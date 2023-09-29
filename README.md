@@ -46,7 +46,6 @@ Notes on the table columns:
 | **WebSplit** [(Narayan et al., 2017)](https://doi.org/10.18653/v1/d17-1064) | EN | Mixed | Comparable | Sent | 1 million sentences | 1 | [Link](https://github.com/shashiongithub/Split-and-Rephrase) |
 | **EASIER** [(Alarcon et al., 2021)](https://ieeexplore.ieee.org/document/9400837) | ES | Mixed | Parallel | Lex | 5153 | 1-3 | [Link](https://github.com/LURMORENO/EASIER_CORPUS) |
 | **RuAdapt** [(Dmitrieva and Tiedemann, 2021)](https://aclanthology.org/2021.bsnlp-1.8) | RU | Books | Parallel | Doc | 457 documents | | [Link](https://github.com/Digital-Pushkin-Lab/RuAdapt) |
-| **RSSE** [(Dmitrieva and Tiedemann, 2021)](https://aclanthology.org/2021.bsnlp-1.8/) | RU | Books | Parallel | Sent | 3406 | 1 | [Link](https://github.com/dialogue-evaluation/RuSimpleSentEval) |
 | **CEFR** [(Uchida et al., 2018)](https://aclanthology.org/L18-1514/) | EN | Education | Comparable | Lex | 414 | 2.4(avg) | [Link](http://www-bigdata.ist.osaka-u.ac.jp/arase/pj/lex-simplification.zip) |
 | **SIMPLEX-PB-3.0** [(Hartmann and Aluisio, 2021)](https://linguamatica.com/index.php/linguamatica/article/view/323) | PT (BR) | Education | Parallel | Lex | 1582 | 7,3(avg) | [Link](https://github.com/nathanshartmann/SIMPLEX-PB-3.0) |
 | **PSAT** [(Taylor et al., 2022)](https://aclanthology.org/2022.coling-1.566/) | EN | Education | Parallel | Doc | 112 documents, with total of 1883 aligned sentences | 1 | [Link](https://zenodo.org/record/7065615) |
