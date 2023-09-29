@@ -215,7 +215,7 @@ datasets:
     language: EN
     level: Sentence
     link: https://web.archive.org/web/20150906192742/http://ssli.ee.washington.edu/tial/projects/simplification/
-    linkNote: '(archived) Pre-processed version available [here](https://github.com/senisioi/NeuralTextSimplification)'
+    linkNote: 'Archived, pre-processed version available [here](https://github.com/senisioi/NeuralTextSimplification)'
     name: EW-SEW
     paper: https://aclanthology.org/N15-1022/
     references: 1
