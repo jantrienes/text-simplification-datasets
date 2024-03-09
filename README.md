@@ -2,6 +2,8 @@
 
 A collection of text simplification datasets with a focus on sentence/paragraph/document-level simplification. All [contributions](#Contributing) are welcome!
 
+For browsing/sorting the datasets, you can use the [interactive table](https://jantrienes.github.io/text-simplification-datasets/).
+
 ## Datasets
 
 Notes on the table columns:

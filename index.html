@@ -45,15 +45,16 @@
     <table id="data-table">
         <thead>
             <tr>
-                <th onclick="sortData('name')">indName</th>
-                <th onclick="sortData('author')">Author</th>
+                <th onclick="sortData('dataset')">Dataset</th>
+                <th onclick="sortData('author')">Authors</th>
                 <th onclick="sortData('domain')">Domain</th>
                 <th onclick="sortData('instances')">Instances</th>
                 <th onclick="sortData('kind')">Kind</th>
                 <th onclick="sortData('language')">Language</th>
                 <th onclick="sortData('level')">Level</th>
                 <th onclick="sortData('year')">Year</th>
-                <th>References</th>
+                <th>Refs.</th>
+                <th>Link</th>
             </tr>
         </thead>
         <tbody>
@@ -83,6 +84,7 @@
                 'Levels': extractUniqueValues(data, 'level')
             };
             addUnique(uniqueValues);
+            sortData('dataset');
         });
 
         function addUnique(uniqueValues) {
@@ -118,6 +120,7 @@
                     <td>${dataset.level}</td>
                     <td>${dataset.year}</td>
                     <td>${dataset.references}</td>
+                    <td><a href="${dataset.link}" target="_blank">Link</a></td>
                 `;
                 tableBody.appendChild(row);
             }
