@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Simplification Datasets</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #222;
+            color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+        }
+
+        a {
+            color: #fff;
+            /* text-decoration: none; */
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #333;
+            font-weight: bold;
+            cursor: pointer;
+            min-width: 100px;
+        }
+        th::after {
+            content: "";
+            display: inline-block;
+            margin-left: 5px;
+        }
+        .asc::after {
+            content: "▲";
+        }
+        .desc::after {
+            content: "▼";
+        }
+        th:hover {
+            background-color: #444;
+        }
+        tr:nth-child(even) {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text Simplification Datasets</h1>
+    <h4 id="unique">Details</h4>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th onclick="sortData('dataset')">Dataset</th>
+                <th onclick="sortData('author')">Authors</th>
+                <th onclick="sortData('domain')">Domain</th>
+                <th onclick="sortData('instances')">Instances</th>
+                <th onclick="sortData('kind')">Kind</th>
+                <th onclick="sortData('language')">Language</th>
+                <th onclick="sortData('level')">Level</th>
+                <th onclick="sortData('year')">Year</th>
+                <th>Refs.</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be loaded from yml here -->
+        </tbody>
+        </table>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js" integrity="sha512-CSBhVREyzHAjAFfBlIBakjoRUKp5h7VSweP0InR/pAJyptH7peuhCsqAI/snV+TwZmXZqoUklpXp6R6wMnYf5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        let currentSortColumn = null;
+        let sortDirection = 'asc';
+
+        async function fetchData() {
+            const response = await fetch('https://raw.githubusercontent.com/jantrienes/text-simplification-datasets/main/data.yml');
+            const data = await response.text();
+            const parsedData = jsyaml.load(data);
+            return parsedData.datasets;
+        }
+
+        const datasets = fetchData().then(data => {
+            populateTable(data);
+
+            const uniqueValues = {
+                'Domains': extractUniqueValues(data, 'domain'),
+                'Kinds': extractUniqueValues(data, 'kind'),
+                'Languages': extractUniqueValues(data, 'language'),
+                'Levels': extractUniqueValues(data, 'level')
+            };
+            addUnique(uniqueValues);
+            sortData('dataset');
+        });
+
+        function addUnique(uniqueValues) {
+            const topInfoElement = document.querySelector('#unique');
+            let innerHTML = '';
+            for (const [key, values] of Object.entries(uniqueValues)) {
+                innerHTML += `<li><strong>${key}:</strong> <code>${values.join(', ')}</code></li>`;
+            }
+            topInfoElement.innerHTML = `<ul>${innerHTML}</ul>`;
+        }
+
+        function extractUniqueValues(datasets, field) {
+            const uniqueValues = new Set();
+            for (const key in datasets) {
+                uniqueValues.add(datasets[key][field]);
+            }
+            return Array.from(uniqueValues).filter(value => value !== null && value !== undefined);
+        }
+
+        async function populateTable(datasets) {
+            const tableBody = document.querySelector('#data-table tbody');
+            tableBody.innerHTML = '';
+            for (const key in datasets) {
+                const dataset = datasets[key];
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${dataset.name}</td>
+                    <td>${dataset.author}</td>
+                    <td>${dataset.domain}</td>
+                    <td>${dataset.instances}</td>
+                    <td>${dataset.kind}</td>
+                    <td>${dataset.language}</td>
+                    <td>${dataset.level}</td>
+                    <td>${dataset.year}</td>
+                    <td>${dataset.references}</td>
+                    <td><a href="${dataset.link}" target="_blank">Link</a></td>
+                `;
+                tableBody.appendChild(row);
+            }
+        }
+
+        function sortData(column) {
+            const thead = document.querySelector('#data-table thead');
+            const ths = Array.from(thead.querySelectorAll('th'));
+            const tbody = document.querySelector('#data-table tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+
+            if (currentSortColumn === column) {
+                sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+            } else {
+                sortDirection = 'asc';
+            }
+
+            const index = ths.findIndex(th => th.textContent.toLowerCase() === column.toLowerCase());
+
+            ths.forEach(th => {
+                th.classList.remove('asc', 'desc');
+            });
+            ths[index].classList.add(sortDirection);
+            rows.sort((a, b) => {
+                const aValue = a.querySelectorAll('td')[index].textContent.trim();
+                const bValue = b.querySelectorAll('td')[index].textContent.trim();
+
+                if (aValue === bValue) {
+                    return 0;
+                }
+
+                return sortDirection === 'asc' ? (aValue > bValue ? 1 : -1) : (aValue < bValue ? 1 : -1);
+            });
+
+            while (tbody.firstChild) {
+                tbody.removeChild(tbody.firstChild);
+            }
+
+            rows.forEach(row => tbody.appendChild(row));
+            currentSortColumn = column;
+        }
+
+    </script>
+    
+</body>
+</html>
