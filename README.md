@@ -74,4 +74,4 @@ New entries can be added to [`data.yml`](./data.yml). Afterwards, run `python re
 
 ## Acknowledgements
 
-This list has greatly benefitted from the survey of [Alva-Manchego et al. (2020)](https://doi.org/10.1162/COLI_a_00370) and [Štajner (2021)](https://doi.org/10.18653/v1/2021.findings-acl.233), as well as notes by [Laura Vásquez-Rodríguez](https://lmvasque.github.io/). Thanks!
+This list has greatly benefitted from the survey of [Alva-Manchego et al. (2020)](https://doi.org/10.1162/COLI_a_00370) and [Štajner (2021)](https://doi.org/10.18653/v1/2021.findings-acl.233), as well as notes by [Laura Vásquez-Rodríguez](https://lmvasque.github.io/). Thanks! Also thanks to [@tollefj](https://github.com/tollefj) for adding the interactive table.
