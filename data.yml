@@ -688,3 +688,42 @@ datasets:
     paper: https://doi.org/10.18653/v1/2022.emnlp-main.416
     references: 1
     year: 2022
+  joseph-etal-2023-cochrane:
+    author: Joseph et al.
+    domain: Medical
+    instances: Cross-lingual pairs; 5K pairs (clean, semi-automatically aligned), 100K pairs (noisy)
+    kind: Comparable
+    language: EN, ES, FR, FA
+    level: Sentence
+    link: https://github.com/SebaJoe/MultiCochrane
+    linkNote: null
+    name: MutliCochrane
+    paper: https://doi.org/10.18653/v1/2023.emnlp-main.1037
+    references: 1
+    year: 2023
+  laban-etal-2023-swipe:
+    author: Laban et al.
+    domain: Wikipedia
+    instances: 145,161 article revision pairs, anntations of fine-grained edit operations on ~5000 articles
+    kind: Comparable
+    language: EN
+    level: Document
+    link: https://github.com/Salesforce/simplification
+    linkNote: null
+    name: SWiPE
+    paper: https://doi.org/10.18653/v1/2023.acl-long.596
+    references: 1
+    year: 2023
+  stodden-etal-2023-deplain:
+    author: Stodden et al.
+    domain: News
+    instances: 500 document pairs in News domain (13k aligned sentences), 150 document pairs in Web domain (2k aligned sentences)
+    kind: Parallel
+    language: DE
+    level: Document
+    link: https://github.com/rstodden/DEPlain
+    linkNote: null
+    name: DEplain
+    paper: https://doi.org/10.18653/v1/2023.acl-long.908
+    references: 1
+    year: 2023
