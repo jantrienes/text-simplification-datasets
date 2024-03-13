@@ -697,7 +697,7 @@ datasets:
     level: Sentence
     link: https://github.com/SebaJoe/MultiCochrane
     linkNote: null
-    name: MutliCochrane
+    name: MultiCochrane
     paper: https://doi.org/10.18653/v1/2023.emnlp-main.1037
     references: 1
     year: 2023
