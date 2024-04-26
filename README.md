@@ -66,6 +66,7 @@ Notes on the table columns:
 | **CELLS** [(Guo et al., 2022)](https://arxiv.org/abs/2211.03818) | EN | Medical | Comparable | Par | 63000 | 1 | [Link](https://github.com/linguisticanomalies/pls_retrieval) |
 | **PLABA** [(Attal et al., 2023)](https://www.nature.com/articles/s41597-022-01920-3) | EN | Medical | Parallel | Doc | 750 documents with 7643 sentence pairs | 1 | [Link](https://osf.io/rnpmf/) |
 | **MultiCochrane** [(Joseph et al., 2023)](https://doi.org/10.18653/v1/2023.emnlp-main.1037) | EN, ES, FR, FA | Medical | Comparable | Sent | Cross-lingual pairs; 5K pairs (clean, semi-automatically aligned), 100K pairs (noisy) | 1 | [Link](https://github.com/SebaJoe/MultiCochrane) |
+| **CLARA-MeD-simp-sent** [(Campillos-Llanos et al., 2024)](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6576/3976) | ES | Medical | Parallel | Sent | 1200 manually-simplified sentences | 1 | [Link](https://digital.csic.es/handle/10261/346579) |
 | **MedLane** [(Luo et al., 2022)](https://aclanthology.org/2022.coling-1.313) | EN | Clinical | Parallel | Sent | 12,801/1,015/1,016 train/valid/test sentences (avg. 20/24 tokens in source/target) | 1 | [Link](https://github.com/machinelearning4health/MedLane) |
 | **MTSamples** [(Moramarco et al., 2022)](https://arxiv.org/abs/2112.12672) | EN | Clinical | Parallel | Sent | 1250 sentence pairs. | 1 | [Link](https://github.com/babylonhealth/laymaker) |
 | **SimplePatho** [(Trienes et al., 2022)](https://aclanthology.org/2022.tsar-1.3/) | DE | Clinical | Parallel | Doc | 851 documents | 1 | n/a |
