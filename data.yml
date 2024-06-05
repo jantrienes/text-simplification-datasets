@@ -90,6 +90,19 @@ datasets:
     paper: http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6576/3976
     references: 1
     year: 2024
+  campillos-llanos-et-al-2024-simpmedlexsp:
+    author: Campillos-Llanos et al.
+    domain: Medical
+    instances: ">14000 pairs of medical terms and the corresponding simplified synonym/definition."
+    kind: Parallel
+    language: ES
+    level: Lexical
+    link: https://digital.csic.es/handle/10261/349662
+    linkNote: null
+    name: SimpMedLexSp
+    paper: https://aclanthology.org/2024.lrec-main.1216.pdf
+    references: 1
+    year: 2024
   cao-et-al-2020-msd-manuals:
     author: Cao et al.
     domain: Medical
