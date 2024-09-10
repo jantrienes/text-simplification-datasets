@@ -241,7 +241,7 @@ datasets:
     language: JA
     level: Sentence
     link: https://github.com/OnizukaLab/JASMINE
-    linkNote: (available on request)
+    linkNote: available on request
     name: JASMINE
     paper: https://aclanthology.org/2024.naacl-srw.23/
     references: 1
