@@ -233,6 +233,19 @@ datasets:
     paper: https://aclanthology.org/2022.readi-1.4
     references: n/a
     year: 2022
+  horiguchi-et-al-2024-jasmine:
+    author: Horiguchi et al.
+    domain: Medical
+    instances: 1425 sentences (0/425/1000 train/val/test)
+    kind: Parallel
+    language: JA
+    level: Sentence
+    link: https://github.com/OnizukaLab/JASMINE
+    linkNote: (available on request)
+    name: JASMINE
+    paper: https://aclanthology.org/2024.naacl-srw.23/
+    references: 1
+    year: 2024
   hwang-et-al-2015-ew-sew:
     author: Hwang et al.
     domain: Wikipedia
